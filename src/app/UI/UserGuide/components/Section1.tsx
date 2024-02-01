@@ -65,7 +65,7 @@ export default function Section1() {
           <br />
           <br />
           <br />
-          If you still haven't received a verification code, you can resend one by clicking the "Click to Resend" link. After that, simply click the Verify email box to confirm and proceed to the next stage.
+          If you still haven&apos;t received a verification code, you can resend one by clicking the  &quot;Click to Resend&quot; link. After that, simply click the Verify email box to confirm and proceed to the next stage.
           </p>
          </div>
         </div>
@@ -77,11 +77,11 @@ export default function Section1() {
           <div className='flex flex-col basis-3/4 gap-8 mt-10 max-[1000px]:mx-4'>
             <h3 className=" text-blue-900 text-base ml-20 font-medium max-[1000px]:ml-0 max-[1000px]:text-center">C. Setting Password</h3>
             <p className=" text-slate-700 text-sm ml-28 flex  justify-start items-center max-[1000px]:ml-0 max-[1000px]:text-center">
-            You can modify your password now that you have an account. It is important to note that the password must be at least 8 characters long and contain one special character; otherwise, an error will occur. 
+            You can modify your password now that you have an account. It is important to note that the password must be at least 8 characters long and contain one special character&semi; otherwise, an error will occur. 
             <br />
             <br />
             <br />
-            You can now edit your personal information in your account after you've created your password.
+            You can now edit your personal information in your account after you&apos;ve created your password.
             </p>
           </div>
           <div className="flex basis-1/4 justify-center items-center max-[1000px]:basis-0">

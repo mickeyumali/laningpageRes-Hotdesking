@@ -5,35 +5,17 @@
 
 import Image from 'next/image'
 import dynamic from 'next/dynamic';
-
+import NavBar from  '../app/UI/NavBar';
+import MainContent from  '../app/UI/maincontent';
+import Tutorial from '../app/UI/tutoria';
+import Activity from '../app/UI/activity';
+import Forfaqs from '../app/UI/faqs';
+import Footer from '../app/UI/footer';
 
 
 
 export default function Example() {
 
-  const NavBar = dynamic(() => import('../app/UI/NavBar'), {
-    ssr: true,
-  });
-
-  const MainContent = dynamic(() => import('../app/UI/maincontent'), {
-    ssr: true,
-  });
-
-  const Tutorial = dynamic(() => import('../app/UI/tutoria'), {
-    ssr: true,
-  });
-
-  const Activity = dynamic(() => import('../app/UI/activity'), {
-    ssr: true,
-  });
-
-  const Faqs = dynamic(() => import('../app/UI/faqs'), {
-    ssr: true,
-  });
-
-  const Footer = dynamic(() => import('../app/UI/footer'), {
-    ssr: true,
-  });
   return (
     
     <div className=''>
@@ -53,7 +35,7 @@ export default function Example() {
     <Activity />
 
     {/* fOR FOOTER */}
-    <Faqs />
+    <Forfaqs />
 
     {/* Footer */}
      <Footer />

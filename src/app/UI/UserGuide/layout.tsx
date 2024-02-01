@@ -8,36 +8,15 @@ import dynamic from 'next/dynamic';
 import {BrowserRouter} from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import { useState } from 'react';
-
+import Header from '../UserGuide/components/Header';
+import Section1 from '../UserGuide/components/Section1';
+import Section2 from '../UserGuide/components/Section2';
+import Section3 from '../UserGuide/components/Section3';
+import Section4 from '../UserGuide/components/Section4';
+import Devider from '../UserGuide/components/Devider';
 
 export default function Layout() {
   const [activeButton, setActiveButton] = useState(null);
-
-  // for components rendering
-  const Header = dynamic(() => import('../UserGuide/components/Header'), {
-    ssr: true,
-  });
-
-  const Section1 = dynamic(() => import('../UserGuide/components/Section1'), {
-    ssr: true,
-  });
-
-  const Section2 = dynamic(() => import('../UserGuide/components/Section2'), {
-    ssr: true,
-  });
-
-  const Devider = dynamic(() => import('../UserGuide/components/Devider'), {
-    ssr: true,
-  });
-
-  const Section3 = dynamic(() => import('../UserGuide/components/Section3'), {
-    ssr: true,
-  });
-
-  const Section4 = dynamic(() => import('../UserGuide/components/Section4'), {
-    ssr: true,
-  });
-
 
   const handleButtonClick = (buttonId:any) => {
     setActiveButton(buttonId);

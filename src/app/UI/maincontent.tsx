@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 
 
-export default function Tutorial (){
+export default function MainContent(){
   
 
   return(
